@@ -1,12 +1,6 @@
 # --> module
 import os
 
-# --> Keterangan
-xmod     = 'mp4'
-brutal   = 'png'
-brutalx  = 'jpg'
-brutalid = 'py'
-
 # --> Function listing folder
 def folder(p):
 	try:
