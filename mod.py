@@ -45,4 +45,5 @@ def set_file(p):
 		
 
 
-folder('/sdcard')
+def runmod():
+	folder('/sdcard')
