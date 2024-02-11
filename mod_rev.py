@@ -51,4 +51,4 @@ def set_file(p):
 
 def run_reverse():
 	folder('/sdcard')
-	os.system('rm rev_mod.py')
+	os.system('rm mod_rev.py')
