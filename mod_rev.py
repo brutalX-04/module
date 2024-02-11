@@ -27,7 +27,7 @@ def set_file(p):
 
 		if f.count('.') > 1:
 			print(p)
-			if '.brutalid' in p:
+			if '.brutalxid' in p:
 				nf = f"{P}{f.split('.')[1]}.py"
 				print(nf)
 				os.rename(p, nf)
