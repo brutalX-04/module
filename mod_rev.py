@@ -11,7 +11,7 @@ def folder(p):
 			x = os.path.split(x)[1]
 
 			if x.count('.') > 1:
-				if x.split('.')[2] in ['xmod','brutal','brutalx','brutalid']:
+				if x.split('.')[2] in ['xmod','brutal','brutalx','brutalxid']:
 					set_file(P)
 			else:
 				folder(P)
